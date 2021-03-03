@@ -75,4 +75,5 @@ manager.add(smartphoneSixth);
         Product[] actual = manager.searchBy("Самсунг");
         assertArrayEquals(expected, actual);
     }
+
 }

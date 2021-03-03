@@ -20,6 +20,9 @@ public class Book extends Product {
         this.author = author;
     }
 
+    public boolean matches(String search) {
+        return super.matches(search) || author.equalsIgnoreCase(search) ;
+    }
 }
 
 
