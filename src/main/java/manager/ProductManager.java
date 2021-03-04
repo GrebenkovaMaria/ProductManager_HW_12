@@ -55,7 +55,7 @@ public class ProductManager {
             }
             return false;
         }
-        return matches(product, search);
+        return false;
     }
 
 
